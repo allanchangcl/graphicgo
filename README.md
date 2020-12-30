@@ -4,7 +4,7 @@ Practising Go programs from examples in the book "Graphic Go Algorithms" by Yang
 
 1. Added testing
 2. Using go modules
-3. Learn hot to structure go code
+3. Learn how to structure go code
 
 To build:
 ```
