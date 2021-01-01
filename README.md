@@ -21,3 +21,8 @@ To test:
 ```
 go test
 ```
+
+To clean:
+```
+git clean -dxf
+```

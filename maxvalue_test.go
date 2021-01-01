@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestMinValue(t *testing.T) {
+func TestMaxValue(t *testing.T) {
 	var scores = []int{60, 80, 95, 50, 70, 23}
 	var length = len(scores)
-	var minValue = myMin(scores, length)
-	assert.Equal(t, minValue, 23, "The values should be the same")
+	var maxValue = myMax(scores, length)
+	assert.Equal(t, maxValue, 23, "The values should be the same")
 }
