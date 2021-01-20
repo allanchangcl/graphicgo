@@ -10,4 +10,10 @@ func main() {
 	var minValue = myMin(scores, length)
 	fmt.Printf("Min Value = %d\n", minValue)
 
+	// call struct
+	// println(*myStructtype)
+	fmt.Printf("My dog name is %v\n", myStructtype().name)
+
+	// fmt.Printf("%+v\n", myStructtype().name)
+
 }
